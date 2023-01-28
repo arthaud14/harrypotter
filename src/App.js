@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import "tailwindcss/tailwind.css";
 import "./App.css";
 import Navbar from "./component/Navbar";
+import Footer from "./component/Footer";
+
 
 const App = () => {
   return (
@@ -16,6 +18,7 @@ const App = () => {
           <Route path="/allperso" element={<AllPerso />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

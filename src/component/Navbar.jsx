@@ -3,9 +3,9 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="bg-gradient-to-r from-gray-50 to-gray-500">
       <a href="/">
-        <img className="h-40 W-40" src="Logo.jpeg" alt="" />
+        <img className="h-40 W-40" src="Logobg.webp" alt="" />
       </a>
       <ul className="flex flex-col lg:flex-row list-none lg:ml-auto" role="navigation">
         <li className="nav-item">
